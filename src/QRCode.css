@@ -1,0 +1,104 @@
+:root{
+    --primary-color:#043ed6;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-content{
+    margin: 20px 0;
+}
+
+.heading-content .heading{
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.heading span{
+    color: var(--primary-color);
+}
+.description{
+    color: gray;
+    text-align: center;
+}
+
+.app-container{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+.loading-text{
+    font-size: 16px;
+}
+.app-container img{
+    margin-bottom: 20px;
+}
+
+.input-fields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.input-label{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+input{
+    width: 100%;
+    padding: 10px 7px;
+    font-size: 16px;
+    margin-bottom:30px ;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    color: black;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.buttons .primary{
+    width: 50%;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 400;
+    padding: 12px 25px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons .outline{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+p{
+    width: 100%;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
